@@ -5,7 +5,6 @@ pipeline {
         steps {
            git url : 'https://github.com/DarshanMAchar/jenkins-simple-demo.git'
               branch: 'main'
-
         }
       }
       stage('Run Script') {
