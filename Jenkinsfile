@@ -3,5 +3,17 @@ pipeline {
    stages{
       stage('Clone'){
         steps {
-           git url : '
+           git url : 'https://github.com/DarshanMAchar/jenkins-simple-demo.git'
+              branch: 'main'
+
+        }
+      }
+      stage('Run Script') {
+         steps {
+            sh 'chmod +x script.sh'
+            sh './script.sh'
+         }
+      }
+   }
+}
         
