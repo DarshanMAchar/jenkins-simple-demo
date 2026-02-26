@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello"
+echo "Hello Darshan"
+echo "How are you"
